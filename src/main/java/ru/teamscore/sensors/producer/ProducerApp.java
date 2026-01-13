@@ -18,7 +18,7 @@ public class ProducerApp {
         System.out.println();
 
         int minDelay = 10;
-        int maxDelay = 100;
+        int maxDelay = 50;
 
         if (args.length >= 1) {
             try {

@@ -26,11 +26,11 @@ public class ProducerService {
     private final int maxDelayMs;
 
     public ProducerService(EntityManagerFactory emf) {
-        this(emf, new SensorDataGenerator(), 10, 100);
+        this(emf, new SensorDataGenerator(), 10, 50);
     }
 
     public ProducerService(EntityManagerFactory emf, SensorDataGenerator generator) {
-        this(emf, generator, 10, 100);
+        this(emf, generator, 10, 50);
     }
 
     public ProducerService(EntityManagerFactory emf, SensorDataGenerator generator, int minDelayMs, int maxDelayMs) {
